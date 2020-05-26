@@ -1,0 +1,21 @@
+<map id="mmu.h" name="mmu.h">
+<area shape="rect" id="node2" href="$d0/d56/console_8c.html" title="console.c" alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="$df/dc9/exec_8c.html" title="exec.c" alt="" coords="109,80,170,107"/>
+<area shape="rect" id="node4" href="$d2/d5a/fs_8c.html" title="fs.c" alt="" coords="195,80,239,107"/>
+<area shape="rect" id="node5" href="$d9/d2f/ide_8c.html" title="ide.c" alt="" coords="263,80,314,107"/>
+<area shape="rect" id="node6" href="$d4/def/kalloc_8c.html" title="kalloc.c" alt="" coords="338,80,405,107"/>
+<area shape="rect" id="node7" href="$dc/df6/lapic_8c.html" title="lapic.c" alt="" coords="429,80,489,107"/>
+<area shape="rect" id="node8" href="$d0/d29/main_8c.html" title="main.c" alt="" coords="514,80,575,107"/>
+<area shape="rect" id="node9" href="$da/d9b/memide_8c.html" title="memide.c" alt="" coords="600,80,679,107"/>
+<area shape="rect" id="node10" href="$dd/d06/mp_8c.html" title="mp.c" alt="" coords="703,80,754,107"/>
+<area shape="rect" id="node11" href="$d1/d47/pipe_8c.html" title="pipe.c" alt="" coords="779,80,836,107"/>
+<area shape="rect" id="node12" href="$d3/dda/proc_8c.html" title="proc.c" alt="" coords="861,80,919,107"/>
+<area shape="rect" id="node13" href="$d8/dd1/sleeplock_8c.html" title="sleeplock.c" alt="" coords="943,80,1031,107"/>
+<area shape="rect" id="node14" href="$d3/d2d/spinlock_8c.html" title="spinlock.c" alt="" coords="1056,80,1137,107"/>
+<area shape="rect" id="node15" href="$db/dd8/syscall_8c.html" title="syscall.c" alt="" coords="1162,80,1237,107"/>
+<area shape="rect" id="node16" href="$d1/d14/sysfile_8c.html" title="sysfile.c" alt="" coords="1261,80,1332,107"/>
+<area shape="rect" id="node17" href="$dd/d35/sysproc_8c.html" title="sysproc.c" alt="" coords="1356,80,1435,107"/>
+<area shape="rect" id="node18" href="$dc/d6f/trap_8c.html" title="trap.c" alt="" coords="1459,80,1513,107"/>
+<area shape="rect" id="node19" href="$d1/d87/uart_8c.html" title="uart.c" alt="" coords="1537,80,1592,107"/>
+<area shape="rect" id="node20" href="$de/de9/vm_8c.html" title="vm.c" alt="" coords="1617,80,1667,107"/>
+</map>

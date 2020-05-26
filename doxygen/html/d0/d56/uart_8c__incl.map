@@ -1,0 +1,13 @@
+<map id="uart.c" name="uart.c">
+<area shape="rect" id="node2" href="$d9/d49/types_8h.html" title="types.h" alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node3" href="$d5/d64/defs_8h.html" title="defs.h" alt="" coords="95,80,154,107"/>
+<area shape="rect" id="node4" href="$d5/d33/param_8h.html" title="param.h" alt="" coords="178,80,247,107"/>
+<area shape="rect" id="node5" href="$d5/d98/traps_8h.html" title="traps.h" alt="" coords="272,80,335,107"/>
+<area shape="rect" id="node6" href="$df/d63/spinlock_8h.html" title="spinlock.h" alt="" coords="359,80,440,107"/>
+<area shape="rect" id="node7" href="$d0/d74/sleeplock_8h.html" title="sleeplock.h" alt="" coords="465,80,553,107"/>
+<area shape="rect" id="node8" href="$df/d26/fs_8h.html" title="fs.h" alt="" coords="577,80,621,107"/>
+<area shape="rect" id="node9" href="$d2/d4d/file_8h.html" title="file.h" alt="" coords="646,80,697,107"/>
+<area shape="rect" id="node10" href="$d2/df1/mmu_8h.html" title="mmu.h" alt="" coords="721,80,784,107"/>
+<area shape="rect" id="node11" href="$df/d03/proc_8h.html" title="proc.h" alt="" coords="809,80,867,107"/>
+<area shape="rect" id="node12" href="$d5/d39/x86_8h.html" title="x86.h" alt="" coords="892,80,947,107"/>
+</map>

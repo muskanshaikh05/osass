@@ -1,0 +1,22 @@
+<map id="iunlock" name="iunlock">
+<area shape="rect" id="node2" href="$d0/d56/console_8c.html#a28ac85a90987662e306ca8efbfe16074" title="consoleread" alt="" coords="117,5,209,32"/>
+<area shape="rect" id="node4" href="$d0/d56/console_8c.html#a6af7eb39268127d389792cec37785666" title="consolewrite" alt="" coords="116,56,211,83"/>
+<area shape="rect" id="node5" href="$d6/d13/file_8c.html#afff8e849fa54dea2a5a27dbb97474607" title="filestat" alt="" coords="133,284,194,311"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="504,563,575,589"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="500,259,579,285"/>
+<area shape="rect" id="node13" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="500,208,579,235"/>
+<area shape="rect" id="node15" href="$d6/d13/file_8c.html#a1dc8c87c7e48bdaaf98e9c7047928f29" title="fileread" alt="" coords="131,335,195,361"/>
+<area shape="rect" id="node17" href="$d6/d13/file_8c.html#ab8de757a0a9f58dcc6511ea5e46ebb88" title="filewrite" alt="" coords="130,233,197,260"/>
+<area shape="rect" id="node19" href="$d2/d5a/fs_8c.html#a207b3008bae35596c55ec7c4fc6875eb" title="iunlockput" alt="" coords="260,411,341,437"/>
+<area shape="rect" id="node21" href="$d2/d5a/fs_8c.html#a69a135a0e8a06d9f306d77ebc0c1f7a0" title="dirlink" alt="" coords="391,613,447,640"/>
+<area shape="rect" id="node3" href="$d5/d64/defs_8h.html#ab508ff0f4db26fe35cd25fa648f9ee75" title="consoleinit" alt="" coords="259,31,343,57"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#ac243c8f20f5fb2e3e257b5007af2c204" title="sys_fstat" alt="" coords="263,284,339,311"/>
+<area shape="rect" id="node7" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="391,309,446,336"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="497,487,581,513"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="498,360,581,387"/>
+<area shape="rect" id="node12" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="495,411,584,437"/>
+<area shape="rect" id="node14" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="500,309,579,336"/>
+<area shape="rect" id="node16" href="$d1/d14/sysfile_8c.html#a54bf714d9e898cbdcbc061b280bbfae0" title="sys_read" alt="" coords="263,335,338,361"/>
+<area shape="rect" id="node18" href="$d1/d14/sysfile_8c.html#a687d939a9e4792af15db96f2c2f34378" title="sys_write" alt="" coords="261,233,340,260"/>
+<area shape="rect" id="node20" href="$d8/ddb/user_8h.html#aa7b4aae4a12acd187e23396214aeca47" title="exec" alt="" coords="393,360,444,387"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="bootmain" name="bootmain">
+<area shape="rect" id="node2" href="$d5/dfc/bootmain_8c.html#af8097ce47ae21ccad1b0afd6f48ef62c" title="readseg" alt="" coords="128,5,196,32"/>
+<area shape="rect" id="node3" href="$d5/dfc/bootmain_8c.html#ae7ef59ffa082283b72c54e43b7a16351" title="readsect" alt="" coords="244,5,316,32"/>
+<area shape="rect" id="node4" href="$d5/dfc/bootmain_8c.html#a63222d4a07c38c198de5bd116a001935" title="waitdisk" alt="" coords="364,5,435,32"/>
+</map>

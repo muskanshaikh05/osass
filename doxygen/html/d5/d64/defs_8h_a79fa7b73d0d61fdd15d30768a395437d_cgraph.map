@@ -1,0 +1,5 @@
+<map id="uartinit" name="uartinit">
+<area shape="rect" id="node2" href="$d5/d64/defs_8h.html#a63da75c0c2f0b051f2c790aea2116b63" title="ioapicenable" alt="" coords="115,5,209,32"/>
+<area shape="rect" id="node3" href="$d1/d87/uart_8c.html#a55840fa098ac21df6535d6ac91956d07" title="uartputc" alt="" coords="127,56,197,83"/>
+<area shape="rect" id="node4" href="$d5/d64/defs_8h.html#ada0e72e8d0a1a48090829fd03a0b76ba" title="microdelay" alt="" coords="257,56,343,83"/>
+</map>

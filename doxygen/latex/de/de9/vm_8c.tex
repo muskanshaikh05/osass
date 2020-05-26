@@ -1,0 +1,450 @@
+\hypertarget{vm_8c}{}\section{vm.\+c File Reference}
+\label{vm_8c}\index{vm.\+c@{vm.\+c}}
+{\ttfamily \#include \char`\"{}param.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}types.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}defs.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}x86.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}memlayout.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}mmu.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}proc.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}elf.\+h\char`\"{}}\\*
+Include dependency graph for vm.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9e/vm_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries kmap}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{vm_8c_aaf5b2814a1dbf3ef0803dff58e0a76dc}{seginit} (void)
+\item 
+\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$ \hyperlink{vm_8c_aa7dbd3b5c70eb93e0e7fb8331202821d}{setupkvm} (void)
+\item 
+void \hyperlink{vm_8c_a893bf6891e427f310b43981bf8e737ea}{kvmalloc} (void)
+\item 
+void \hyperlink{vm_8c_a02ca0670bc1fe12e38453082631ff360}{switchkvm} (void)
+\item 
+void \hyperlink{vm_8c_a87c90f0ab2a1b11c2b55f4e483bb8493}{switchuvm} (struct \hyperlink{structproc}{proc} $\ast$p)
+\item 
+void \hyperlink{vm_8c_ac96c231d4053eaf4322c27d1f2cd9d49}{inituvm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, char $\ast$init, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} sz)
+\item 
+int \hyperlink{vm_8c_a201acc8337a2893268b61ea5a1ee0d53}{loaduvm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, char $\ast$addr, struct \hyperlink{structinode}{inode} $\ast$ip, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} offset, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} sz)
+\item 
+int \hyperlink{vm_8c_afea0f0a82a9f9c7aae26f90b5e0836c6}{allocuvm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} oldsz, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} newsz)
+\item 
+int \hyperlink{vm_8c_a6d3019ea15a9bfdc5131ae97f3623c49}{deallocuvm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} oldsz, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} newsz)
+\item 
+void \hyperlink{vm_8c_aa883924e2f068c520b695cdc168e1603}{freevm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir)
+\item 
+void \hyperlink{vm_8c_a795e27a0cb916cfb41411ebbb9669ddf}{clearpteu} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, char $\ast$uva)
+\item 
+\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$ \hyperlink{vm_8c_ad158860fa206e19f2370eeab852bca7c}{copyuvm} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} sz)
+\item 
+char $\ast$ \hyperlink{vm_8c_adefebae1abb3b54fd04d6d4858e7735b}{uva2ka} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, char $\ast$uva)
+\item 
+int \hyperlink{vm_8c_a532bc3f3e39942c20a471a11cff1a582}{copyout} (\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$pgdir, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} va, void $\ast$p, \hyperlink{types_8h_a91ad9478d81a7aaf2593e8d9c3d06a14}{uint} len)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{vm_8c_a923b2158227405b9f7a6eceb6c7104c8}{data} \mbox{[}$\,$\mbox{]}
+\item 
+\hyperlink{types_8h_ac131849542282b2c95dfeaf1f26dc010}{pde\+\_\+t} $\ast$ \hyperlink{vm_8c_aff01f9f000432fd4171b7edee6c85855}{kpgdir}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{vm.\+c@{vm.\+c}!allocuvm@{allocuvm}}
+\index{allocuvm@{allocuvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{allocuvm(pde\+\_\+t $\ast$pgdir, uint oldsz, uint newsz)}{allocuvm(pde_t *pgdir, uint oldsz, uint newsz)}}]{\setlength{\rightskip}{0pt plus 5cm}int allocuvm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{{\bf uint}}]{oldsz, }
+\item[{{\bf uint}}]{newsz}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_afea0f0a82a9f9c7aae26f90b5e0836c6}{}\label{vm_8c_afea0f0a82a9f9c7aae26f90b5e0836c6}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_afea0f0a82a9f9c7aae26f90b5e0836c6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_afea0f0a82a9f9c7aae26f90b5e0836c6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!clearpteu@{clearpteu}}
+\index{clearpteu@{clearpteu}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{clearpteu(pde\+\_\+t $\ast$pgdir, char $\ast$uva)}{clearpteu(pde_t *pgdir, char *uva)}}]{\setlength{\rightskip}{0pt plus 5cm}void clearpteu (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{char $\ast$}]{uva}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a795e27a0cb916cfb41411ebbb9669ddf}{}\label{vm_8c_a795e27a0cb916cfb41411ebbb9669ddf}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a795e27a0cb916cfb41411ebbb9669ddf_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{de/de9/vm_8c_a795e27a0cb916cfb41411ebbb9669ddf_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!copyout@{copyout}}
+\index{copyout@{copyout}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{copyout(pde\+\_\+t $\ast$pgdir, uint va, void $\ast$p, uint len)}{copyout(pde_t *pgdir, uint va, void *p, uint len)}}]{\setlength{\rightskip}{0pt plus 5cm}int copyout (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{{\bf uint}}]{va, }
+\item[{void $\ast$}]{p, }
+\item[{{\bf uint}}]{len}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a532bc3f3e39942c20a471a11cff1a582}{}\label{vm_8c_a532bc3f3e39942c20a471a11cff1a582}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{de/de9/vm_8c_a532bc3f3e39942c20a471a11cff1a582_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{de/de9/vm_8c_a532bc3f3e39942c20a471a11cff1a582_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!copyuvm@{copyuvm}}
+\index{copyuvm@{copyuvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{copyuvm(pde\+\_\+t $\ast$pgdir, uint sz)}{copyuvm(pde_t *pgdir, uint sz)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pde\+\_\+t}$\ast$ copyuvm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{{\bf uint}}]{sz}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_ad158860fa206e19f2370eeab852bca7c}{}\label{vm_8c_ad158860fa206e19f2370eeab852bca7c}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_ad158860fa206e19f2370eeab852bca7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{de/de9/vm_8c_ad158860fa206e19f2370eeab852bca7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!deallocuvm@{deallocuvm}}
+\index{deallocuvm@{deallocuvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{deallocuvm(pde\+\_\+t $\ast$pgdir, uint oldsz, uint newsz)}{deallocuvm(pde_t *pgdir, uint oldsz, uint newsz)}}]{\setlength{\rightskip}{0pt plus 5cm}int deallocuvm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{{\bf uint}}]{oldsz, }
+\item[{{\bf uint}}]{newsz}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a6d3019ea15a9bfdc5131ae97f3623c49}{}\label{vm_8c_a6d3019ea15a9bfdc5131ae97f3623c49}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a6d3019ea15a9bfdc5131ae97f3623c49_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a6d3019ea15a9bfdc5131ae97f3623c49_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!freevm@{freevm}}
+\index{freevm@{freevm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{freevm(pde\+\_\+t $\ast$pgdir)}{freevm(pde_t *pgdir)}}]{\setlength{\rightskip}{0pt plus 5cm}void freevm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_aa883924e2f068c520b695cdc168e1603}{}\label{vm_8c_aa883924e2f068c520b695cdc168e1603}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_aa883924e2f068c520b695cdc168e1603_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_aa883924e2f068c520b695cdc168e1603_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!inituvm@{inituvm}}
+\index{inituvm@{inituvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{inituvm(pde\+\_\+t $\ast$pgdir, char $\ast$init, uint sz)}{inituvm(pde_t *pgdir, char *init, uint sz)}}]{\setlength{\rightskip}{0pt plus 5cm}void inituvm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{char $\ast$}]{init, }
+\item[{{\bf uint}}]{sz}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_ac96c231d4053eaf4322c27d1f2cd9d49}{}\label{vm_8c_ac96c231d4053eaf4322c27d1f2cd9d49}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_ac96c231d4053eaf4322c27d1f2cd9d49_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{de/de9/vm_8c_ac96c231d4053eaf4322c27d1f2cd9d49_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!kvmalloc@{kvmalloc}}
+\index{kvmalloc@{kvmalloc}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{kvmalloc(void)}{kvmalloc(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void kvmalloc (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a893bf6891e427f310b43981bf8e737ea}{}\label{vm_8c_a893bf6891e427f310b43981bf8e737ea}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a893bf6891e427f310b43981bf8e737ea_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!loaduvm@{loaduvm}}
+\index{loaduvm@{loaduvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{loaduvm(pde\+\_\+t $\ast$pgdir, char $\ast$addr, struct inode $\ast$ip, uint offset, uint sz)}{loaduvm(pde_t *pgdir, char *addr, struct inode *ip, uint offset, uint sz)}}]{\setlength{\rightskip}{0pt plus 5cm}int loaduvm (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{char $\ast$}]{addr, }
+\item[{struct {\bf inode} $\ast$}]{ip, }
+\item[{{\bf uint}}]{offset, }
+\item[{{\bf uint}}]{sz}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a201acc8337a2893268b61ea5a1ee0d53}{}\label{vm_8c_a201acc8337a2893268b61ea5a1ee0d53}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a201acc8337a2893268b61ea5a1ee0d53_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{de/de9/vm_8c_a201acc8337a2893268b61ea5a1ee0d53_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!seginit@{seginit}}
+\index{seginit@{seginit}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{seginit(void)}{seginit(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void seginit (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_aaf5b2814a1dbf3ef0803dff58e0a76dc}{}\label{vm_8c_aaf5b2814a1dbf3ef0803dff58e0a76dc}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_aaf5b2814a1dbf3ef0803dff58e0a76dc_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!setupkvm@{setupkvm}}
+\index{setupkvm@{setupkvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{setupkvm(void)}{setupkvm(void)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pde\+\_\+t}$\ast$ setupkvm (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_aa7dbd3b5c70eb93e0e7fb8331202821d}{}\label{vm_8c_aa7dbd3b5c70eb93e0e7fb8331202821d}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_aa7dbd3b5c70eb93e0e7fb8331202821d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{de/de9/vm_8c_aa7dbd3b5c70eb93e0e7fb8331202821d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!switchkvm@{switchkvm}}
+\index{switchkvm@{switchkvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{switchkvm(void)}{switchkvm(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void switchkvm (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a02ca0670bc1fe12e38453082631ff360}{}\label{vm_8c_a02ca0670bc1fe12e38453082631ff360}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a02ca0670bc1fe12e38453082631ff360_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!switchuvm@{switchuvm}}
+\index{switchuvm@{switchuvm}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{switchuvm(struct proc $\ast$p)}{switchuvm(struct proc *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void switchuvm (
+\begin{DoxyParamCaption}
+\item[{struct {\bf proc} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_a87c90f0ab2a1b11c2b55f4e483bb8493}{}\label{vm_8c_a87c90f0ab2a1b11c2b55f4e483bb8493}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a87c90f0ab2a1b11c2b55f4e483bb8493_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de9/vm_8c_a87c90f0ab2a1b11c2b55f4e483bb8493_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{vm.\+c@{vm.\+c}!uva2ka@{uva2ka}}
+\index{uva2ka@{uva2ka}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{uva2ka(pde\+\_\+t $\ast$pgdir, char $\ast$uva)}{uva2ka(pde_t *pgdir, char *uva)}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ uva2ka (
+\begin{DoxyParamCaption}
+\item[{{\bf pde\+\_\+t} $\ast$}]{pgdir, }
+\item[{char $\ast$}]{uva}
+\end{DoxyParamCaption}
+)}\hypertarget{vm_8c_adefebae1abb3b54fd04d6d4858e7735b}{}\label{vm_8c_adefebae1abb3b54fd04d6d4858e7735b}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{de/de9/vm_8c_adefebae1abb3b54fd04d6d4858e7735b_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\index{vm.\+c@{vm.\+c}!data@{data}}
+\index{data@{data}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{data}{data}}]{\setlength{\rightskip}{0pt plus 5cm}char data\mbox{[}$\,$\mbox{]}}\hypertarget{vm_8c_a923b2158227405b9f7a6eceb6c7104c8}{}\label{vm_8c_a923b2158227405b9f7a6eceb6c7104c8}
+\index{vm.\+c@{vm.\+c}!kpgdir@{kpgdir}}
+\index{kpgdir@{kpgdir}!vm.\+c@{vm.\+c}}
+\subsubsection[{\texorpdfstring{kpgdir}{kpgdir}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pde\+\_\+t}$\ast$ kpgdir}\hypertarget{vm_8c_aff01f9f000432fd4171b7edee6c85855}{}\label{vm_8c_aff01f9f000432fd4171b7edee6c85855}

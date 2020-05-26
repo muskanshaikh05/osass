@@ -1,0 +1,5 @@
+<map id="microdelay" name="microdelay">
+<area shape="rect" id="node2" href="$dc/df6/lapic_8c.html#a54df00c792282426648d2876835958fa" title="lapicstartap" alt="" coords="139,5,228,32"/>
+<area shape="rect" id="node3" href="$d1/d87/uart_8c.html#a55840fa098ac21df6535d6ac91956d07" title="uartputc" alt="" coords="149,56,218,83"/>
+<area shape="rect" id="node4" href="$d1/d87/uart_8c.html#a79fa7b73d0d61fdd15d30768a395437d" title="uartinit" alt="" coords="276,56,337,83"/>
+</map>
