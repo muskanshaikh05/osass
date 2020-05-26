@@ -1,0 +1,10 @@
+<map id="sys_wait" name="sys_wait">
+<area shape="rect" id="node2" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="128,157,183,184"/>
+<area shape="rect" id="node3" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="240,5,311,32"/>
+<area shape="rect" id="node4" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="233,56,317,83"/>
+<area shape="rect" id="node5" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="236,107,315,133"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="234,157,317,184"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="231,208,320,235"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="236,259,315,285"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="236,309,315,336"/>
+</map>

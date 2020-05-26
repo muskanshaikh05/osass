@@ -1,0 +1,12 @@
+<map id="namecmp" name="namecmp">
+<area shape="rect" id="node2" href="$d2/d5a/fs_8c.html#aa182c62fade7a0bae9408830d5e06d4f" title="dirlookup" alt="" coords="132,43,207,69"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="583,43,667,69"/>
+<area shape="rect" id="node3" href="$d2/d5a/fs_8c.html#a69a135a0e8a06d9f306d77ebc0c1f7a0" title="dirlink" alt="" coords="255,93,311,120"/>
+<area shape="rect" id="node4" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="359,144,429,171"/>
+<area shape="rect" id="node5" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="477,144,532,171"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="585,93,664,120"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="583,144,666,171"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="580,195,669,221"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="585,245,664,272"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="585,296,664,323"/>
+</map>

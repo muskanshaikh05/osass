@@ -1,0 +1,12 @@
+<map id="filealloc" name="filealloc">
+<area shape="rect" id="node2" href="$d1/d47/pipe_8c.html#a9d6f0c526148e6002b6776619c7563e6" title="pipealloc" alt="" coords="120,195,193,221"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="472,309,551,336"/>
+<area shape="rect" id="node3" href="$d1/d14/sysfile_8c.html#a9a70db941def46ec25939e6c2d30e399" title="sys_pipe" alt="" coords="241,169,316,196"/>
+<area shape="rect" id="node4" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="364,157,419,184"/>
+<area shape="rect" id="node5" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="476,56,547,83"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="469,107,553,133"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="470,157,553,184"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="467,208,556,235"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="472,259,551,285"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="472,5,551,32"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="readi" name="readi">
+<area shape="rect" id="node2" href="$d8/ddb/user_8h.html#aa7b4aae4a12acd187e23396214aeca47" title="exec" alt="" coords="235,81,285,108"/>
+<area shape="rect" id="node3" href="$d6/d13/file_8c.html#a1dc8c87c7e48bdaaf98e9c7047928f29" title="fileread" alt="" coords="107,157,171,184"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="459,259,529,285"/>
+<area shape="rect" id="node13" href="$d2/d5a/fs_8c.html#aa182c62fade7a0bae9408830d5e06d4f" title="dirlookup" alt="" coords="223,309,297,336"/>
+<area shape="rect" id="node14" href="$d2/d5a/fs_8c.html#a69a135a0e8a06d9f306d77ebc0c1f7a0" title="dirlink" alt="" coords="345,259,401,285"/>
+<area shape="rect" id="node15" href="$de/de9/vm_8c.html#a201acc8337a2893268b61ea5a1ee0d53" title="loaduvm" alt="" coords="104,107,175,133"/>
+<area shape="rect" id="node4" href="$d1/d14/sysfile_8c.html#a54bf714d9e898cbdcbc061b280bbfae0" title="sys_read" alt="" coords="223,157,297,184"/>
+<area shape="rect" id="node5" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="346,157,401,184"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="452,309,536,336"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="455,56,533,83"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="453,107,535,133"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="449,157,539,184"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="455,208,533,235"/>
+<area shape="rect" id="node12" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="455,5,533,32"/>
+</map>

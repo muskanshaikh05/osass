@@ -1,0 +1,1 @@
+lseek is a systemnis call that is used to change the location of the read/write pointer of a file descripntor. The location can be set either in absolute or relative terms.

@@ -1,0 +1,11 @@
+<map id="fork" name="fork">
+<area shape="rect" id="node2" href="$dd/d35/sysproc_8c.html#a3b05102e512b34446a54334f916ba5cd" title="sys_fork" alt="" coords="97,157,169,184"/>
+<area shape="rect" id="node3" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="217,157,272,184"/>
+<area shape="rect" id="node4" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="329,5,400,32"/>
+<area shape="rect" id="node5" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="323,56,407,83"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="325,107,404,133"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="323,157,406,184"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="320,208,409,235"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="325,259,404,285"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="325,309,404,336"/>
+</map>

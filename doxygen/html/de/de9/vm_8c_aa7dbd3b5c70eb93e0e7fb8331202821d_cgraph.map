@@ -1,0 +1,18 @@
+<map id="setupkvm" name="setupkvm">
+<area shape="rect" id="node2" href="$d5/d64/defs_8h.html#a3af104ba40b66dcec8363ac5a70907ed" title="kalloc" alt="" coords="379,347,435,373"/>
+<area shape="rect" id="node6" href="$d0/d56/console_8c.html#a95c0aca5d6d7487933984f08b189917a" title="panic" alt="" coords="849,245,903,272"/>
+<area shape="rect" id="node14" href="$d5/d64/defs_8h.html#a9d55c9f035076ed1a90b6452770d0b62" title="memset" alt="" coords="483,245,552,272"/>
+<area shape="rect" id="node15" href="$de/de9/vm_8c.html#aa883924e2f068c520b695cdc168e1603" title="freevm" alt="" coords="132,169,195,196"/>
+<area shape="rect" id="node3" href="$d5/d64/defs_8h.html#afe4ef8638f1ecb962a6e67fb086ee3b8" title="acquire" alt="" coords="485,347,549,373"/>
+<area shape="rect" id="node8" href="$d5/d64/defs_8h.html#a4f8616948f3dbce65671f666eed1d669" title="release" alt="" coords="1091,359,1155,385"/>
+<area shape="rect" id="node4" href="$d3/d2d/spinlock_8c.html#a206b749d1b7768dadce61cbcde7e0f1c" title="pushcli" alt="" coords="615,448,677,475"/>
+<area shape="rect" id="node5" href="$d5/d64/defs_8h.html#a6ab45dc363c8d9b7beb14c25be49c6d7" title="mycpu" alt="" coords="740,423,801,449"/>
+<area shape="rect" id="node9" href="$d3/d2d/spinlock_8c.html#aea48df3e5cfb903179ad3dc78ab502d9" title="holding" alt="" coords="1203,549,1265,576"/>
+<area shape="rect" id="node13" href="$d3/d2d/spinlock_8c.html#a6ac35304ea80f01086b47edcc2328010" title="getcallerpcs" alt="" coords="600,296,692,323"/>
+<area shape="rect" id="node11" href="$d5/d64/defs_8h.html#a627f7996b64f99d885244a5102c85164" title="lapicid" alt="" coords="967,397,1026,424"/>
+<area shape="rect" id="node7" href="$d0/d56/console_8c.html#a90f0742d846503e4ed1804f1df421ec6" title="cprintf" alt="" coords="967,347,1026,373"/>
+<area shape="rect" id="node12" href="$d5/d64/defs_8h.html#a4105de9e2969515d6c6c795c4386f69f" title="getcallerpcs" alt="" coords="951,245,1043,272"/>
+<area shape="rect" id="node10" href="$d3/d2d/spinlock_8c.html#ae3424f669269fef400ce29c3aeb43fdb" title="popcli" alt="" coords="1313,416,1369,443"/>
+<area shape="rect" id="node16" href="$de/de9/vm_8c.html#a6d3019ea15a9bfdc5131ae97f3623c49" title="deallocuvm" alt="" coords="243,93,331,120"/>
+<area shape="rect" id="node17" href="$d5/d64/defs_8h.html#ae79d6a7d0901b7c081cfded3f916d5bd" title="kfree" alt="" coords="381,144,432,171"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="iunlockput" name="iunlockput">
+<area shape="rect" id="node2" href="$d8/ddb/user_8h.html#aa7b4aae4a12acd187e23396214aeca47" title="exec" alt="" coords="137,5,188,32"/>
+<area shape="rect" id="node3" href="$d2/d5a/fs_8c.html#a69a135a0e8a06d9f306d77ebc0c1f7a0" title="dirlink" alt="" coords="135,107,191,133"/>
+<area shape="rect" id="node4" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="239,208,309,235"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="463,107,547,133"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="465,157,544,184"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="463,259,546,285"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="460,309,549,336"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="465,360,544,387"/>
+<area shape="rect" id="node5" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="357,208,412,235"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="465,208,544,235"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="stati" name="stati">
+<area shape="rect" id="node2" href="$d6/d13/file_8c.html#afff8e849fa54dea2a5a27dbb97474607" title="filestat" alt="" coords="100,157,161,184"/>
+<area shape="rect" id="node3" href="$d1/d14/sysfile_8c.html#ac243c8f20f5fb2e3e257b5007af2c204" title="sys_fstat" alt="" coords="209,157,285,184"/>
+<area shape="rect" id="node4" href="$db/dd8/syscall_8c.html#a662eedd65f3e2165093842b80e3bc024" title="argstr" alt="" coords="333,157,388,184"/>
+<area shape="rect" id="node5" href="$d1/d14/sysfile_8c.html#a759600870314007ac558871239122fb7" title="sys_link" alt="" coords="445,5,516,32"/>
+<area shape="rect" id="node6" href="$d1/d14/sysfile_8c.html#ae1e58ee11d41f643929520d8c1640da7" title="sys_unlink" alt="" coords="439,56,523,83"/>
+<area shape="rect" id="node7" href="$d1/d14/sysfile_8c.html#a74e45efc661ca17c068bc283b3842e6d" title="sys_open" alt="" coords="441,107,520,133"/>
+<area shape="rect" id="node8" href="$d1/d14/sysfile_8c.html#a057e5bce2de7a87ebfd2dc33967bca4a" title="sys_mkdir" alt="" coords="439,157,522,184"/>
+<area shape="rect" id="node9" href="$d1/d14/sysfile_8c.html#a25697aa3d828b5878d38170d724adb27" title="sys_mknod" alt="" coords="436,208,525,235"/>
+<area shape="rect" id="node10" href="$d1/d14/sysfile_8c.html#ad1c5f8693cb35b9605fee09eebdda640" title="sys_chdir" alt="" coords="441,259,520,285"/>
+<area shape="rect" id="node11" href="$d1/d14/sysfile_8c.html#aeaa813ddeb6a5fac3c45714c7351c526" title="sys_exec" alt="" coords="441,309,520,336"/>
+</map>

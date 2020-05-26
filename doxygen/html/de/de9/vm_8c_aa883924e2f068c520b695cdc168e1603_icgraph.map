@@ -1,0 +1,9 @@
+<map id="freevm" name="freevm">
+<area shape="rect" id="node2" href="$d8/ddb/user_8h.html#aa7b4aae4a12acd187e23396214aeca47" title="exec" alt="" coords="255,5,305,32"/>
+<area shape="rect" id="node3" href="$d8/ddb/user_8h.html#af6f31822f7e737b4e414bdac1ccb59a4" title="wait" alt="" coords="132,56,179,83"/>
+<area shape="rect" id="node4" href="$de/de9/vm_8c.html#aa7dbd3b5c70eb93e0e7fb8331202821d" title="setupkvm" alt="" coords="116,107,195,133"/>
+<area shape="rect" id="node7" href="$de/de9/vm_8c.html#ad158860fa206e19f2370eeab852bca7c" title="copyuvm" alt="" coords="243,157,317,184"/>
+<area shape="rect" id="node5" href="$d3/dda/proc_8c.html#a81c8a6a0cae413bc81aa223f7f7b7205" title="userinit" alt="" coords="248,56,312,83"/>
+<area shape="rect" id="node6" href="$de/de9/vm_8c.html#a893bf6891e427f310b43981bf8e737ea" title="kvmalloc" alt="" coords="243,107,317,133"/>
+<area shape="rect" id="node8" href="$d8/ddb/user_8h.html#acd2e1ded4bb6fce4500438bf928330f4" title="fork" alt="" coords="365,157,409,184"/>
+</map>
